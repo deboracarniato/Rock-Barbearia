@@ -1,6 +1,12 @@
 header{
-    background : red ; 
+    background : rgb(151, 58, 58) ; 
     padding: 20px 0;
+}
+
+nav{
+    position: absolute;
+    top:110px;
+    right: 0;
 }
 
 nav li {
@@ -10,7 +16,7 @@ nav li {
 
 nav a {
     text-transform: uppercase;
-    color: red;
+    color: rgb(255, 221, 221);
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
@@ -20,4 +26,29 @@ nav a {
     position: relative;
     width: 940px;
     margin: 0 auto;
+}
+
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao{
+    font-size: 18px;
 }
